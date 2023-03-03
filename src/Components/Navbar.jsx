@@ -10,7 +10,7 @@ const Navbar = () => {
 
     return(
         <div>
-            <div className="flex content-center h-12 bg-white drop-shadow flex-wrap justify-between sm:justify-around font-sans text-slate-600">
+            <div className="flex content-center h-12 bg-white shadow-lg flex-wrap justify-between sm:justify-around font-sans text-slate-600">
               <div className=" justify-self-start ml-3 sm:ml-0 sm:hidden ">
                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
