@@ -19,7 +19,6 @@ const ProfileData = () => {
          <div >
                 <EditButton>Edit Profile</EditButton>
         </div>
-        <Divider></Divider>
         </div>
     )
 }

@@ -9,7 +9,7 @@ import Tag from "../../Utils/Tag";
 
 const CommunityStats = () => {
     return (
-        <div>
+        <div className="community-stats">
         <p className="font-semibold">Community Stats</p>
         <Stats  
         name = "Views" 
@@ -35,8 +35,7 @@ const CommunityStats = () => {
         increment = {0}
         icon = {Star}
         />
-        <Divider />
-        <Tag>C++</Tag>
+        
         </div>
     )
 }
